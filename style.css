@@ -241,13 +241,21 @@ text-align:center;
 
 .video video{
 
-width:90%;
+width:100%;
 
-max-width:900px;
+max-width:420px;
+
+aspect-ratio:9/16;
+
+object-fit:cover;
 
 border-radius:20px;
 
-box-shadow:0 0 40px rgba(255,255,255,.2);
+display:block;
+
+margin:auto;
+
+box-shadow:0 0 40px rgba(255,105,180,.4);
 
 }
 
