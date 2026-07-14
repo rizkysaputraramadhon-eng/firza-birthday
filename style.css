@@ -250,3 +250,313 @@ border-radius:20px;
 box-shadow:0 0 40px rgba(255,255,255,.2);
 
 }
+
+/* ========================= */
+/* GALLERY */
+/* ========================= */
+
+.gallery{
+
+padding:80px 20px;
+
+text-align:center;
+
+}
+
+.gallery h2{
+
+margin-bottom:40px;
+
+font-size:42px;
+
+color:#ff77aa;
+
+}
+
+.photos{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.photos img{
+
+width:100%;
+
+height:320px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+transition:.4s;
+
+box-shadow:0 10px 25px rgba(0,0,0,.4);
+
+}
+
+.photos img:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 20px 40px rgba(255,105,180,.5);
+
+}
+
+/* ========================= */
+/* TIMELINE */
+/* ========================= */
+
+.timeline{
+
+padding:90px 20px;
+
+text-align:center;
+
+}
+
+.timeline h2{
+
+font-size:42px;
+
+margin-bottom:40px;
+
+color:#ff77aa;
+
+}
+
+.timeline-box{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.card{
+
+padding:30px;
+
+border-radius:25px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(12px);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+background:rgba(255,255,255,.15);
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+
+color:#ffb3d9;
+
+}
+
+/* ========================= */
+/* MESSAGE */
+/* ========================= */
+
+.message{
+
+padding:90px 20px;
+
+text-align:center;
+
+}
+
+.message h2{
+
+font-size:42px;
+
+margin-bottom:30px;
+
+color:#ff77aa;
+
+}
+
+.message p{
+
+max-width:900px;
+
+margin:20px auto;
+
+font-size:20px;
+
+line-height:2;
+
+}
+
+/* ========================= */
+/* LOVE BUTTON */
+/* ========================= */
+
+.love{
+
+padding:100px 20px;
+
+text-align:center;
+
+}
+
+#loveButton{
+
+padding:18px 45px;
+
+font-size:20px;
+
+border:none;
+
+border-radius:50px;
+
+background:#ff4f91;
+
+color:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+#loveButton:hover{
+
+transform:scale(1.08);
+
+background:#ff1f71;
+
+}
+
+#loveResult{
+
+display:none;
+
+margin-top:35px;
+
+padding:30px;
+
+border-radius:20px;
+
+background:rgba(255,255,255,.10);
+
+backdrop-filter:blur(12px);
+
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer{
+
+padding:60px 20px;
+
+text-align:center;
+
+background:rgba(255,255,255,.05);
+
+margin-top:60px;
+
+}
+
+footer h2{
+
+font-family:'Dancing Script',cursive;
+
+font-size:40px;
+
+color:#ff77aa;
+
+margin-bottom:15px;
+
+}
+
+footer p{
+
+font-size:18px;
+
+line-height:1.8;
+
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero h2{
+
+font-size:30px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.counter{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.counter div{
+
+width:180px;
+
+}
+
+.photos{
+
+grid-template-columns:1fr;
+
+}
+
+.timeline-box{
+
+grid-template-columns:1fr;
+
+}
+
+.video video{
+
+width:100%;
+
+}
+
+}
