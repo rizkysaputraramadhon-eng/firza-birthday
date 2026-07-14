@@ -259,6 +259,20 @@ box-shadow:0 0 40px rgba(255,105,180,.4);
 
 }
 
+.quote{
+
+margin-top:20px;
+
+font-size:20px;
+
+font-style:italic;
+
+color:#ffd4e8;
+
+line-height:1.8;
+
+}
+
 /* ========================= */
 /* GALLERY */
 /* ========================= */
